@@ -51,30 +51,8 @@ if (isset($_SESSION['user'])) {
 	<!-- Core theme CSS (includes Bootstrap)-->
 	<link href="css/styles.css" rel="stylesheet" />
 	<link href="css/style.css" rel="stylesheet" />
+	<link href="css/validate.css" rel="stylesheet" />
 	<style>
-		body {
-			background-image: url(faculty.jpg);
-			background-position: center;
-			background-repeat: no-repeat;
-			background-size: cover;
-		}
-
-		.btn-login {
-			font-size: 0.9rem;
-			letter-spacing: 0.05rem;
-			padding: 0.75rem 1rem;
-		}
-
-		.btn-google {
-			color: white !important;
-			background-color: #ea4335;
-		}
-
-		.btn-facebook {
-			color: white !important;
-			background-color: #3b5998;
-		}
-
 		.centered {
 			display: flex;
 			justify-content: center;
@@ -83,41 +61,25 @@ if (isset($_SESSION['user'])) {
 		}
 
 		.form-control:focus {
-			border-color: #28a745;
+			border-color: #3278b5;
 			box-shadow: 0 0 0 0.3rem rgba(40, 167, 69, 0.25);
 		}
 
 		.form-select:focus {
-			border-color: #28a745;
+			border-color: #3278b5;
 			box-shadow: 0 0 0 0.3rem rgba(40, 167, 69, 0.25);
 		}
 
-		.form-check-input:checked {
-			background-color: #28a745 !important;
-			border: 0;
-		}
 
-		.form-check-input:focus,
-		.label::after,
-		label.form-check-label:focus,
-		.form-check-input::after,
-		.form-check-input:not(:disabled):not(.disabled):active:focus {
-			color: black;
-			outline: 0;
-			border: 0;
-			box-shadow: 0 0 0 0.1rem #28a745 !important;
-		}
 	</style>
 </head>
 
 <body class="d-flex flex-column">
 	<main class="flex-shrink-0">
-		<nav class="navbar navbar-expand-lg navbar-dark bg-success">
+		<nav class="navbar navbar-expand-lg navbar-dark bg-light-blue">
 			<div class="container px-5">
 				<a class="navbar-brand" href="index">
 					<img src="assets/favicon.png" alt="Logo" width="60" height="60" class="d-inline-block align-text-middle">
-					<img src="logo.png" width="130">
-					<b></b>
 				</a>
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -136,7 +98,7 @@ if (isset($_SESSION['user'])) {
 					<div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
 						<div class="card border-0 shadow rounded-3 my-5">
 							<div class="card-body p-4 p-sm-5">
-								<h5 class="card-title text-center mb-3 fw-bold fs-1 text-success">LOGIN</h5>
+								<h5 class="card-title text-center mb-3 fw-bold fs-1 text-light-blue">LOGIN</h5>
 								<?php
 								if (isset($_SESSION['loginstatus'])) {
 								?>
@@ -172,7 +134,7 @@ if (isset($_SESSION['user'])) {
 										</div>
 									</div>
 									<div class="d-grid">
-										<button class="btn btn-success btn-login text-uppercase fw-bold" type="submit">Sign in</button>
+										<button class="btn btn-light-blue btn-login text-uppercase fw-bold" type="submit">Sign in</button>
 									</div>
 								</form>
 							</div>
