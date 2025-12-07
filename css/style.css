@@ -4,6 +4,15 @@
     padding: 0;
     font-family: 'Montserrat', sans-serif;
 }
+@font-face {
+    font-family: "Trajan";
+    src: url("./Trajan-Bold.ttf") format("truetype");
+    font-weight: bold;
+}
+
+.title {
+    font-family: "Trajan", serif;
+}
 .bg-light-blue{
     background-color: #3278b5;
 }

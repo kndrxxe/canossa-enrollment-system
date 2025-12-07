@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <title>Home | Plaridel Integrated National High School</title>
+    <title>Home | Canossa College</title>
     <!-- Favicon-->
     <link rel="icon" type="image/x-icon" href="assets/favicon.png" />
     <!-- Bootstrap icons-->
@@ -33,8 +33,9 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-light-blue">
             <div class="container px-5">
-                <a class="navbar-brand" href="index">
-                    <img class="" src="assets/favicon.png" alt="Logo" width="60" height="60" class="d-inline-block align-text-middle">
+                <a class="navbar-brand d-flex gap-2 align-items-center" href="index">
+                    <img src="assets/favicon.png" alt="Logo" width="60" height="60" class="d-inline-block align-text-middle">
+                    <p class="title" style="line-height: 1.1; margin:0;">CANOSSA COLLEGE<br>SAN PABLO CITY INC.</p>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -66,7 +67,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-5 col-xxl-6 d-none d-xl-block text-center"><img class="img-fluid rounded-3 my-5 animate__animated animate__backInRight" src="assets/favicon.png" alt="..." /></div>
+                    <div class="col-xl-5 col-xxl-6 d-none d-xl-block text-center"><img class="img-fluid rounded-3 my-5 animate__animated animate__backInRight" width="80%" src="assets/favicon.png" alt="..." /></div>
                 </div>
             </div>
         </header>
@@ -140,7 +141,7 @@
             <div class="row align-items-center justify-content-between flex-column flex-sm-row">
 
                 <div class="col-auto">
-                    <div class="small m-0 text-white"><b>Copyright &copy; Plaridel Integrated National High School | 2024</b></div>
+                    <div class="small m-0 text-white"><b>Copyright &copy; CANOSSA COLLEGE | 2025</b></div>
                 </div>
                 <div class="col-auto">
                     <b>
