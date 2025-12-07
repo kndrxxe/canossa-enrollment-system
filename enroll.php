@@ -25,7 +25,6 @@
             text-decoration: none;
         }
     </style>
-    </style>
 
 </head>
 
@@ -36,8 +35,6 @@
             <div class="container px-5">
                 <a class="navbar-brand" href="index">
                     <img src="assets/favicon.png" alt="Logo" width="60" height="60" class="d-inline-block align-text-middle">
-                    <img src="logo.png" width="130">
-                    <b></b>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -59,7 +56,6 @@
         <section class="py-5">
             <div class="container px-5">
                 <!-- Contact form-->
-
                 <div class="bg-light rounded-4 py-5 px-4 px-md-05 mb-2">
                     <div class="text-center mb-3">
                         <h1 class="display-4 fw-bolder text-light-blue">ENROLL NOW</h1>
